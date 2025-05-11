@@ -4,3 +4,6 @@ dontaudit init firmware_file:filesystem getattr;
 allow init firmware_file:file mounton;
 allow init per_boot_file:file ioctl;
 allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
+
+# input_suspend label
+allow init sysfs_battery_supply:file rw_file_perms;

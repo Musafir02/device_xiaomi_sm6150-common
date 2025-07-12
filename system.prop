@@ -30,3 +30,9 @@ ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+
+ro.product.marketname=Redmi note 10 pro
+ro.infinity.soc=Snapdragon 732G 
+ro.infinity.battery=5020 mAh 
+ro.infinity.display=2400 x 1080, 120 Hz 
+ro.infinity.camera=64 MP + 8 MP + 5 MP + 2 MP

@@ -35,6 +35,9 @@ PRODUCT_COPY_FILES += \
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Sony Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files

@@ -214,6 +214,11 @@ on post-fs-data
     mkdir /data/vendor/thermal/config 0771 system system
 #EXTR 57954  zhangzhiqiang,MODIFY,20190425,thermal config switch support
 
+on early-boot
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
 # For cpusets initialize for Silver Only first and then Silver + Gold
 # Silver Only configuration cannot work with 0-7
 on boot

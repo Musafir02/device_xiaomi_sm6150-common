@@ -48,6 +48,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider-service_32.lineage \
     camera.qcom
 
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
